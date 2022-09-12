@@ -1,10 +1,24 @@
 {
-    "packageDirectories": [
-        {
-            "path": "mdapi",
-            "default": true
-        }
-    ],
+  "packageDirectories": [
+    {
+        "path": "dreamhouse-app",
+        "default": true,
+        "package": "dreamhouse-app",
+        "versionName": "ver 0.1",
+        "versionNumber": "0.1.0.NEXT"
+    },
+    {
+        "path": "src-env-specific",
+        "package":"env-specific",
+        "versionName":"ver 0.1",
+        "versionNumber":"0.1.0.0"
+    }
+],
     "namespace": "",
-    "sourceApiVersion": "52.0"
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": 
+      {
+        "dreamhouse-app": "0Ho8c0000004CUcCAM"        
+      }
 }
