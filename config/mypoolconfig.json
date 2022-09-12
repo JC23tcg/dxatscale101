@@ -1,0 +1,12 @@
+{
+    "tag": "examplepool",
+    "maxAllocation": 5,
+    "expiry": 10,
+    "batchSize": 2,
+    "configFilePath": "config/project-scratch-def.json",
+    "relaxAllIPRanges": true,
+    "installAll": true,
+    "enableSourceTracking": true,
+    "retryOnFailure": true,
+    "succeedOnDeploymentErrors": true
+}

@@ -1,0 +1,125 @@
+{
+  "appPageId" : "fda4a77f-2276-4705-b558-32e83150e06c",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "8caf5229-0a40-49f1-8a3e-52f29d7abaaa",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<img class='sfdcCbImage' src='/sfsites/c/img/community/cpt/cpt-home-banner.png'             style='width:100%;'/>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "f7a60c46-edfa-4f36-965f-d164bc86f97a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "titleColor" : "",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "8888a258-1d4e-4dee-8a63-a354c7c02a15",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "36c8b8f3-02cb-45e7-b7c9-2d86d3040567",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "MyOpenCases",
+        "layout" : "STANDARD",
+        "pageSize" : 5,
+        "scope" : "Case",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "9266efb1-44aa-48fb-b6b4-f8e350d5eeb7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "714fc9b2-1c30-44e2-81f9-f1808636e2ff",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "deleteButtonText" : "Delete",
+        "pageSize" : 10,
+        "resumeButtonAlign" : "right",
+        "resumeButtonLabel" : "Resume",
+        "showDeleteButton" : false,
+        "showNumberInTitle" : true,
+        "showOwnerName" : false,
+        "showPauseReason" : true,
+        "showPauseStep" : true,
+        "showPauseTime" : true,
+        "title" : "Paused Flows"
+      },
+      "componentName" : "forceCommunity:pausedInterviewCard",
+      "id" : "f432bc2e-0259-445c-9c0a-98977f689734",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "             <p><b style=\"font-size: 16px;\">Quick Links</b></p>             <p><br></p>             <p><a href=\"http://www.salesforce.com/\" target=\"_blank\">Link 1</a></p>             <p><br></p>             <p><a href=\"http://www.salesforce.com/\" target=\"_blank\">Link 2</a></p>             <p><br></p>             <p><a href=\"http://www.salesforce.com/\" target=\"_blank\">Link 3</a></p>             <p><br></p>             <p><a href=\"http://www.salesforce.com/\" target=\"_blank\">Link 4</a></p>         "
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "1d40f8e8-2ebf-4e90-9ba9-fe0659c3adf4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cdcdc153-9d72-42e8-92ff-240433bd92ee",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "63663157-624a-44ca-a8a3-d0cc73e71c03",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a814c688-131f-43ca-9b49-e35c37d5d2eb",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8273487c-6190-4120-9e28-e63c6f8d3c05",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
